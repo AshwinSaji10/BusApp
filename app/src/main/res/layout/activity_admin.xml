@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    >
+    <TextView
+        android:id="@+id/tvAdmin"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="130dp"
+        android:layout_marginTop="60dp"
+        android:text="Admin"
+        android:textColor="#D81B60"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        />
+
+    <Button
+        android:id="@+id/btnAddBus"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#333652"
+        android:text="Add new Bus"
+        />
+    <Button
+        android:id="@+id/btnAddTrip"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#333652"
+        android:text="Add new Trip"
+        />
+    <Button
+        android:id="@+id/btnShowBus"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#333652"
+        android:text="Show all Buses"
+        />
+    <Button
+        android:id="@+id/btnShowTrip"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#333652"
+        android:text="Show all Trips"
+        />
+    <Button
+        android:id="@+id/btnShowTrans"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#333652"
+        android:text="show all transactions"
+        />
+    <Button
+        android:id="@+id/btnShowUser"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#333652"
+        android:text="show all users"
+        />
+    <!--
+    <Button
+        android:id="@+id/btnnew"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#333652"
+        android:text="new"
+        />
+        -->
+
+</LinearLayout>

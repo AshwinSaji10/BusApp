@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTrip"
+    android:gravity="top"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:text="Enter trip id:"
+        />
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="eg: 1, 2,.."
+        android:inputType="number"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Enter bus id:"
+        />
+    <EditText
+        android:id="@+id/etBid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="eg: 1, 2,.."
+        android:inputType="number"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Enter Starting location:"
+        />
+    <EditText
+        android:id="@+id/etStart"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="eg: COK"
+        android:inputType="textCapCharacters"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Enter Destination:"
+        />
+    <EditText
+        android:id="@+id/etDest"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="eg: TVM"
+        android:inputType="textCapCharacters"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Enter trip date:"
+        />
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="eg: 2021-11-25"
+        android:inputType="text"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Enter trip time:"
+        />
+    <EditText
+        android:id="@+id/etTime"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="eg: 09:40"
+        android:inputType="time"
+        />
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+        android:backgroundTint="#333652"
+        android:text="Add"
+        />
+    </LinearLayout>

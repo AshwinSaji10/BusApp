@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchUser"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:gravity="top"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:text="Enter Starting Location:"
+        />
+    <EditText
+        android:id="@+id/etStartSearchUser"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="eg: COK"
+        android:inputType="textCapCharacters"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Enter Destination:"
+        />
+    <EditText
+        android:id="@+id/etDestSearchUser"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="eg: BLR"
+        android:inputType="textCapCharacters"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btnPickDate"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#333652"
+            android:text="Select Date"
+            />
+        <TextView
+            android:id="@+id/tvDateDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            tools:text="YYYY-MM-DD"
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnSearchUser"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="70dp"
+        android:backgroundTint="#333652"
+        android:text="Search"
+        />
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddBus"
+    android:gravity="top"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:text="Enter bus id:"
+        />
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="eg: 1, 2,.."
+        android:inputType="phone"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Enter License no:"
+        />
+    <EditText
+        android:id="@+id/etLicense"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="eg: KL 43 K 6397"
+        android:inputType="textCapCharacters"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Enter Model:"
+        />
+    <EditText
+        android:id="@+id/etModel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="eg: Volvo 9400 B11R"
+        android:inputType="textCapWords"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Enter total no of seats:"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/etSeats"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="eg: 25"
+        android:inputType="date"
+        />
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+        android:backgroundTint="#333652"
+        android:text="Add"
+        />
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        android:layout_marginTop="100dp"
+        android:text="Bus App"
+        android:textColor="#D81B60"
+        android:textStyle="bold"
+        android:textSize="50sp"
+       />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+    <Button
+        android:id="@+id/btnUser"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:backgroundTint="#333652"
+        android:layout_marginBottom="20dp"
+        android:text="User" />
+    <Button
+        android:id="@+id/btnAdmin"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:backgroundTint="#333652"
+        android:text="Admin" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="DBMS Lab Miniproject done by"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ashwin Saji(45),"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ankit John,"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Christopher Jacob"
+        android:textSize="15sp"
+        />
+
+</LinearLayout>
