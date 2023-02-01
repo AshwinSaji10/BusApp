@@ -94,7 +94,7 @@ class SearchResults : AppCompatActivity()
                     {
                         // insert into user table and insert into transaction table
                         val found_id=databaseHandler.addUser(UserModelClass(0,aadhaar,phone,uname))
-                        val status_t = databaseHandler.addTrans(TransactionModelClass(0,found_id!!,result.tid,seats.toInt()))
+                        val status_t = databaseHandler.addTrans(TransactionModelClass(0,found_id!!,"",result.tid,seats.toInt()))
                         if(status_t>-1&&found_id>-1)
                         {
                             //Toast.makeText(applicationContext, "Successfully inserted!", Toast.LENGTH_SHORT).show()

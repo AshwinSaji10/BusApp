@@ -443,7 +443,8 @@ class DatabaseHandler(context: Context) : SQLiteOpenHelper(context, DATABASE_NAM
         val transList: ArrayList<TransactionModelClass> = ArrayList()
 
         // Query to select all the records from the table.
-        val selectQuery = "SELECT  * FROM $TABLE_TRANS"
+        val selectQuery = "SELECT $TABLE_TRANS.$KEY_TRANSID,$KEY_TRANSUID,$KEY_UNAME,$KEY_TID,$KEY_SEATS FROM $TABLE_TRANS,$TABLE_USER " +
+                "WHERE $TABLE_TRANS.$KEY_TRANSUID = $TABLE_USER.$KEY_UID"
 
         val db = this.readableDatabase
         // Cursor is used to read the record one by one. Add them to data model class.
@@ -462,6 +463,7 @@ class DatabaseHandler(context: Context) : SQLiteOpenHelper(context, DATABASE_NAM
 
         var transid: Int
         var uid: Int
+        var name:String
         var tid: Int
         var seats: Int
 
@@ -471,9 +473,10 @@ class DatabaseHandler(context: Context) : SQLiteOpenHelper(context, DATABASE_NAM
             {
                 transid = cursor.getInt(cursor.getColumnIndexOrThrow(KEY_TRANSID))
                 uid = cursor.getInt(cursor.getColumnIndexOrThrow(KEY_TRANSUID))
+                name = cursor.getString(cursor.getColumnIndexOrThrow(KEY_UNAME))
                 tid = cursor.getInt(cursor.getColumnIndexOrThrow(KEY_TID))
                 seats = cursor.getInt(cursor.getColumnIndexOrThrow(KEY_SEATS))
-                val trans = TransactionModelClass(transid = transid, uid = uid, tid = tid,seats=seats)
+                val trans = TransactionModelClass(transid = transid, uid = uid,name=name, tid = tid,seats=seats)
                 transList.add(trans)
 
             } while (cursor.moveToNext())

@@ -25,6 +25,14 @@
         android:layout_marginRight="30dp"
         tools:text="Uid" />
     <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginRight="30dp"
+        tools:text="Name" />
+    <TextView
         android:id="@+id/tvTid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

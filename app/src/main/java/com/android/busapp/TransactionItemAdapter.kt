@@ -22,6 +22,7 @@ class TransactionItemAdapter(val context: Context, val items: ArrayList<Transact
 
         holder.tvTransId.text = (item.transid).toString()
         holder.tvUid.text = item.uid.toString()
+        holder.tvName.text = item.name
         holder.tvTid.text = item.tid.toString()
         holder.tvSeats.text = item.seats.toString()
         // Updating the background color according to the odd/even positions in list.
@@ -46,6 +47,7 @@ class TransactionItemAdapter(val context: Context, val items: ArrayList<Transact
         val llMain = view.llMain
         val tvTransId = view.tvTransId
         val tvUid = view.tvUid
+        val tvName=view.tvName
         val tvTid = view.tvTid
         val tvSeats= view.tvSeats
 

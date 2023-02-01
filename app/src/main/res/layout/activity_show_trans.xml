@@ -30,7 +30,34 @@
             android:layout_marginLeft="14dp"
             android:textColor="#D81B60"
             android:textStyle="bold"
-            android:text="id"
+            android:text="ID"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#D81B60"
+            android:textStyle="bold"
+            android:text="UID"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#D81B60"
+            android:textStyle="bold"
+            android:text="Name"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#D81B60"
+            android:textStyle="bold"
+            android:text="TID"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -39,25 +66,7 @@
             android:layout_marginLeft="20dp"
             android:textColor="#D81B60"
             android:textStyle="bold"
-            android:text="uid"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="14sp"
-            android:layout_marginLeft="20dp"
-            android:textColor="#D81B60"
-            android:textStyle="bold"
-            android:text="tid"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="14sp"
-            android:layout_marginLeft="20dp"
-            android:textColor="#D81B60"
-            android:textStyle="bold"
-            android:text="seats"
+            android:text="No of seats"
             />
     </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
