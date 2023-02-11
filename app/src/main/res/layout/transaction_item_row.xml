@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/llMain"
     android:layout_width="match_parent"
@@ -14,38 +15,64 @@
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
         android:textSize="16sp"
-        android:layout_marginRight="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:text="TransId" />
+
     <TextView
         android:id="@+id/tvUid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
         android:textSize="16sp"
-        android:layout_marginRight="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.239"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:text="Uid" />
+
     <TextView
         android:id="@+id/tvName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
         android:textSize="16sp"
-        android:layout_marginRight="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.402"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
         tools:text="Name" />
+
     <TextView
         android:id="@+id/tvTid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
         android:textSize="16sp"
-        android:layout_marginRight="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.663"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:text="Tid" />
+
     <TextView
         android:id="@+id/tvSeats"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
         android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:text="Seats" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
