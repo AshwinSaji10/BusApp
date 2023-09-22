@@ -1,5 +1,5 @@
 # BusApp
-An android app that enables users to search and find buses in their desired route and date and book tickets if necessary.The app consists of a user side and an admin side and relies on trip and bus details provided by the administrator.
+An android app that enables users to search and find buses in their desired route and date, and book tickets if necessary.The app consists of a user side and an admin side and relies on trip and bus details provided by the administrator.
 
 ## Installation procedure
 Download the release apk file provided to install on your mobile device
