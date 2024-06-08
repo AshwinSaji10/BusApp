@@ -12,7 +12,7 @@ Download the release apk file provided to install on your mobile device
 <img src="https://github.com/AshwinSaji10/BusApp/assets/118591685/e8e88883-05c3-4134-a28c-2009fd02adae" width="200">
 <img src="https://github.com/AshwinSaji10/BusApp/assets/118591685/79f40e2e-f138-458d-9a61-6d7760d714c2" width="200">
 <img src="https://github.com/AshwinSaji10/BusApp/assets/118591685/96a14485-0df5-4378-9865-776e7f69bd3b" width="200">
-<img src="https://github.com/AshwinSaji10/BusApp/assets/118591685/2fd5652c-92d7-4076-b50b-8782abec836f" width="200">
+<!-- <img src="https://github.com/AshwinSaji10/BusApp/assets/118591685/2fd5652c-92d7-4076-b50b-8782abec836f" width="200"> -->
 <img src="https://github.com/AshwinSaji10/BusApp/assets/118591685/b5e791f7-66c3-499f-b081-4f876b6e558a" width="200">
 
 
